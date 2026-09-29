@@ -1,0 +1,21 @@
+Paleta de colores:
+    Negro carbón — #121212
+    Fondo principal de la web.
+
+    Gris grafito — #1E1E1E
+    Tarjetas, menús, secciones y bloques.
+
+    Gris acero — #3A3F44
+    Bordes, separadores, botones secundarios y detalles.
+
+    Verde oliva táctico — #5F6742
+    Categorías, etiquetas, detalles militares y estados secundarios.
+
+    Naranja señal — #E87522
+    Botones importantes, hover, precios destacados, iconos y llamadas a la acción.
+
+    Beige claro — #D8D2C4
+    Texto secundario y detalles que quieras suavizar.
+
+    Blanco roto — #F2F2EE
+    Texto principal sobre fondos oscuros.

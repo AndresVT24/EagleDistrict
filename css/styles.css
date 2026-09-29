@@ -21,18 +21,15 @@ header
 .categoria
 {
     display: flex;
-    background-image: url("../images/example.webp");
+    /*background-image: url("../images/example.webp");*/
     background-size: cover;
+    background-position: center;
     width: 200px;
     height: 200px;
-    align-content: center;
+    text-align: center;
     justify-content: center;
-}
-
-.categoria > p
-{
-    display: flex;
-    align-content: center;
+    align-items: center;
+    border-radius: 5%;
 }
 
 .categorias
