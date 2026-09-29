@@ -1,3 +1,9 @@
+body
+{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin: 0;
+    background-color: #121212;
+}
 h1
 {
     font-family: "Ethnocentric", sans-serif;
@@ -13,8 +19,30 @@ h2
 
 header
 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
     position: sticky;
-    background-color: #1F1F1F;
+    background-color: #1E1E1E;
+    align-items: center;
+    height: 100px;
+}
+
+.logo
+{
+    padding-left: 10px;
+}
+
+#welcome
+{
+    padding-right: 10px;
+}
+
+#welcome>button
+{
+    background-color: black;
+    color: white;
+    border-radius: 10%;
 }
 
 /*Para dentro de categorias*/
