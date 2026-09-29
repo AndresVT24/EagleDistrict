@@ -1,0 +1,48 @@
+h1
+{
+    font-family: "Ethnocentric", sans-serif;
+    text-align: center;
+}
+
+h2
+{
+    font-family: "Michroma", sans-serif;
+    font-size: 15px;
+    text-align: center;
+}
+
+header
+{
+    position: sticky;
+    background-color: #1F1F1F;
+}
+
+/*Para dentro de categorias*/
+.categoria
+{
+    display: flex;
+    background-image: url("../images/example.webp");
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+    align-content: center;
+    justify-content: center;
+}
+
+.categoria > p
+{
+    display: flex;
+    align-content: center;
+}
+
+.categorias
+{
+    padding: 0px;
+    margin: 10px !important;
+    column-gap: 5px;
+    row-gap: 5px;
+    display: flex;
+    flex-direction: row;
+    /*justify-content: center;*/
+    justify-content: space-around;
+}
