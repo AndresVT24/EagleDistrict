@@ -1,25 +1,16 @@
-/*BASE*/
-body
-{
+/* BASE */
+body{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     margin: 0;
     background-color: #121212;
 }
-h1
-{
-    font-family: "Ethnocentric", sans-serif;
-    text-align: center;
+
+a{
+    text-decoration: none;
 }
 
-h2
-{
-    font-family: "Michroma", sans-serif;
-    font-size: 15px;
-    text-align: center;
-}
-
-header
-{
+/* HEADER */
+.headerTop{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -29,36 +20,69 @@ header
     height: 100px;
 }
 
-.logo
-{
-    padding-left: 10px;
+.logo{
+    margin-left: 15px;
 }
 
-#welcome
-{
-    padding-right: 10px;
+.sign{
+    margin-right: 15px;
 }
 
-#welcome>button
-{
+.sign button{
     background-color: black;
     color: white;
     border-radius: 10%;
 }
 
-/* NAV */
-.nav{
+/* NAVBAR */
+
+.navbar{
     display: flex;
     justify-content: space-around;
     background-color: black;
-    padding: 10px 5px 5px 10px;
+    padding: 10px 5px 10px 5px;
 }
 
-/*Para dentro de categorias*/
-.categoria
-{
+.navbar a{
+    color: #D8D2C4;
+}
+
+.navbar a:hover{
+    color: #F2F2EE;
+}
+
+/* FOOTER */
+
+.footerBottom{
+    background-color: #1E1E1E;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bolder;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.information{
     display: flex;
-    /*background-image: url("../images/example.webp");*/
+    justify-content: space-around;
+}
+
+/* INDEX.HTML*/
+
+.categorias, .categoria{
+    display: flex;
+}
+
+.categorias{
+    padding: 0px;
+    margin: 10px !important;
+    column-gap: 5px;
+    row-gap: 5px;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.categoria{
     background-size: cover;
     background-position: center;
     width: 200px;
@@ -67,21 +91,19 @@ header
     justify-content: center;
     align-items: center;
     border-radius: 5%;
+    background-color: rgba(0, 0, 0, 0.6);
+    background-blend-mode: darken;
 }
 
-.categorias
-{
-    padding: 0px;
-    margin: 10px !important;
-    column-gap: 5px;
-    row-gap: 5px;
-    display: flex;
-    flex-direction: row;
-    /*justify-content: center;*/
-    justify-content: space-around;
+.categoria p{
+    color: #D8D2C4;
 }
 
-/* INDEX.HTML*/
+.categoria:hover{
+    color: #F2F2EE;
+    background-color: rgba(0, 0, 0, 0.3);
+    background-blend-mode: darken;
+}
 
 /* CATEGORIAS.HTML*/
 
