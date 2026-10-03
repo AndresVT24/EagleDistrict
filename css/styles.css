@@ -1,3 +1,4 @@
+/*BASE*/
 body
 {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -45,6 +46,14 @@ header
     border-radius: 10%;
 }
 
+/* NAV */
+.nav{
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    padding: 10px 5px 5px 10px;
+}
+
 /*Para dentro de categorias*/
 .categoria
 {
@@ -71,3 +80,9 @@ header
     /*justify-content: center;*/
     justify-content: space-around;
 }
+
+/* INDEX.HTML*/
+
+/* CATEGORIAS.HTML*/
+
+/* PRODUCTOS.HTML*/
