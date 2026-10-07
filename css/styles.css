@@ -128,6 +128,23 @@ header{
 /* LOGIN.HTML */
 
 /* REGISTER.HTML */
+.main-reg, .main-reg h1{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-content: center;
+}
+
+.form-reg form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-reg label{
+    color: #D8D2C4;
+}
 
 /* CATEGORIAS.HTML*/
 
