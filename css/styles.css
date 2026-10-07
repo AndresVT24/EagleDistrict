@@ -7,6 +7,10 @@ body
     background-color: #121212;
 }
 
+main{
+    margin-bottom: 20px ;
+}
+
 a{
     text-decoration: none;
 }
@@ -38,6 +42,14 @@ header{
     margin: 10px;
     color: white;
     margin-top: 140px;
+}
+
+.startText h1{
+    margin-bottom: 0px;
+}
+
+.startText h2{
+    margin-top: 5px;
 }
 
 .logo{
@@ -85,6 +97,7 @@ header{
     font-weight: bolder;
     bottom: 0;
     width: 100%;
+    color: #b3e3ee;
 }
 
 .information{
@@ -104,15 +117,14 @@ header{
     display: flex;
     background-size: cover;
     background-position: center;
-    width: 200px;
-    height: 200px;
+    padding: 100px;
     text-align: center;
     justify-content: center;
     align-items: center;
     border-radius: 5%;
     background-color: rgba(0, 0, 0, 0.6);
     background-blend-mode: darken;
-    margin-bottom: 50px;
+    margin: 5px;
 }
 
 .categoria p{
@@ -149,3 +161,54 @@ header{
 /* CATEGORIAS.HTML*/
 
 /* PRODUCTOS.HTML*/
+
+/* MEDIA QUERYS */
+
+/* Seccion para hacer que las categorias se pongan en 2 cols*/
+@media (max-width: 1142px) {
+
+    .categorias {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .categoria
+    {
+        padding: 150px;
+    }
+
+    .categoria p {
+        font-size: 16px !important;
+    }
+
+}
+
+@media (max-width: 1338px) {
+    .categoria p {
+        font-size: 12px;
+    }
+}
+
+/*Adaptacion del texto para que no se ponga en dos filas*/
+@media (max-width: 1214px) {
+    .categoria p {
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 1251px) {
+    .categoria p {
+        font-size: 9px;
+    }
+}
+
+@media (max-width: 870px) {
+    .categoria p {
+        font-size: 12px !important;
+    }
+}
+
+@media (max-width: 810px) {
+    .categoria p {
+        font-size: 10px !important;
+    }
+}
