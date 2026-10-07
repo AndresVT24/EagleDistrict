@@ -22,6 +22,22 @@ header{
     top: 0;
 }
 
+.submenu{
+    display: none;
+    position: absolute; /*Para poderse poner sobre todo*/
+    background-color: #000000eb;
+    flex-direction: column;
+}
+
+.menuCategorias:hover .submenu {
+    display: flex; /*Para colocar uno debajo del otro, realmente no hace falta*/
+    padding: 20px;
+}
+
+.menuCategorias:hover .submenu a {
+    padding: 10px;
+}
+
 .headerTop{
     display: flex;
     flex-direction: row;
@@ -164,51 +180,32 @@ header{
 
 /* MEDIA QUERYS */
 
-/* Seccion para hacer que las categorias se pongan en 2 cols*/
+/* Reducimos el tamaño de las tarjetas */
+@media (max-width: 1338px) {
+
+    .categoria {
+        padding: 80px;
+    }
+
+}
+
+@media (max-width: 1250px) {
+
+    .categoria {
+        padding: 60px;
+    }
+
+}
+
+/* Pasamos de 4 columnas a 2 */
 @media (max-width: 1142px) {
 
     .categorias {
         grid-template-columns: 1fr 1fr;
     }
 
-    .categoria
-    {
-        padding: 150px;
+    .categoria {
+        padding: 100px;
     }
 
-    .categoria p {
-        font-size: 16px !important;
-    }
-
-}
-
-@media (max-width: 1338px) {
-    .categoria p {
-        font-size: 12px;
-    }
-}
-
-/*Adaptacion del texto para que no se ponga en dos filas*/
-@media (max-width: 1214px) {
-    .categoria p {
-        font-size: 10px;
-    }
-}
-
-@media (max-width: 1251px) {
-    .categoria p {
-        font-size: 9px;
-    }
-}
-
-@media (max-width: 870px) {
-    .categoria p {
-        font-size: 12px !important;
-    }
-}
-
-@media (max-width: 810px) {
-    .categoria p {
-        font-size: 10px !important;
-    }
 }
