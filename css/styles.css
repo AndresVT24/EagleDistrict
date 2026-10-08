@@ -11,6 +11,10 @@ a{
     text-decoration: none;
 }
 
+label{
+    color: #D8D2C4;
+}
+
 /* HEADER */
 header{
     position: fixed;
@@ -128,22 +132,41 @@ header{
 /* LOGIN.HTML */
 
 /* REGISTER.HTML */
-.main-reg, .main-reg h1{
+
+.header-reg h1{
+    color: #D8D2C4;
+}
+
+.main-reg{
     display: flex;
     justify-content: center;
     flex-direction: column;
-    align-content: center;
+    background-color: #1E1E1E;
+    padding: 20px;
+    margin: 5% 30% 0% 30%;
+    border-radius: 5%;
+}
+
+.header-reg{
+    display: flex;
+    justify-content: center;
+}
+
+.form-reg{
+    display: flex;
+    justify-content: center;
 }
 
 .form-reg form{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
 }
 
-.form-reg label{
-    color: #D8D2C4;
+.btn-reg{
+    display: flex;
+    justify-content: space-around;
+    
 }
 
 /* CATEGORIAS.HTML*/
