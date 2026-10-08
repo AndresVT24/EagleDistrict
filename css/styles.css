@@ -15,6 +15,16 @@ label{
     color: #D8D2C4;
 }
 
+.a-to-btn{
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: smaller;
+}
+
 /* HEADER */
 header{
     position: fixed;
@@ -129,15 +139,13 @@ header{
     background-blend-mode: darken;
 }
 
-/* LOGIN.HTML */
+/* REGISTER.HTML Y LOGIN.HTML*/
 
-/* REGISTER.HTML */
-
-.header-reg h1{
+.header-reg-log h1{
     color: #D8D2C4;
 }
 
-.main-reg{
+.main-reg-log{
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -147,27 +155,39 @@ header{
     border-radius: 5%;
 }
 
-.header-reg{
+.header-reg-log{
     display: flex;
     justify-content: center;
 }
 
-.form-reg{
+.form-reg-log{
     display: flex;
     justify-content: center;
+    margin-bottom: 10px;
 }
 
-.form-reg form{
+.form-reg-log form{
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
 
-.btn-reg{
+.btn-reg-log{
     display: flex;
     justify-content: space-around;
     
 }
+
+/* LOGIN.HTML */
+
+.btn-register-log{
+    text-align: right;
+}
+
+.btn-register-log .a-to-btn{
+    margin: 20px 20px auto auto;
+}
+
 
 /* CATEGORIAS.HTML*/
 

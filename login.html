@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="./utils/utilts.js"></script>
+    <title>Login</title>
+</head>
+<body>
+    <header>
+        <div class="btn-register-log">
+            <a class="a-to-btn" href="./register.html">Resgistrarse</a>
+        </div>
+    </header>
+    <main class="main-reg-log">
+        <div class="header-reg-log">
+            <h1>Login</h1>
+        </div>
+        <div class="form-reg-log">
+            <form action="" method="post">
+                <label for="">
+                    Email: 
+                    <input type="email" name="email" id="email-reg-log" placeholder="Email" required>
+                </label>
+                <br>
+                <label for="">
+                    Contraseña: 
+                    <input type="password" name="password" id="password-reg-log" placeholder="Contraseña" required pattern="[A-Za-z0-9]+" title="Solo letras y números">
+                </label>
+                <br>
+                <div class="btn-reg-log">
+                    <a class="a-to-btn" href="/">Volver</a>
+                    <button class="a-to-btn" type="submit">Login</button>
+                </div>
+            </form>
+        </div>
+    </main>
+</body>
+</html>
