@@ -19,8 +19,3 @@ Paleta de colores:
 
     Blanco roto — #F2F2EE
     Texto principal sobre fondos oscuros.
-
---Cambios en el Main
-    cambiar title de cada .html
-    cambiar class de register.html reg-log
-    añadir btn login a register.html
