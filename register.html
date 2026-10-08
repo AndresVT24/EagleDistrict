@@ -5,48 +5,53 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/styles.css">
     <script src="./utils/utilts.js"></script>
-    <title>EagleDistrict</title>
+    <title>Registrarse</title>
 </head>
 <body>
-    <main class="main-reg">
-        <div class="header-reg">
+    <header>
+        <div class="btn-reg-log">
+            <a class="a-to-btn" href="./login.html">Login</a>
+        </div>
+    </header>
+    <main class="main-reg-log">
+        <div class="header-reg-log">
             <h1>Resgister</h1>
         </div>
-        <div class="form-reg">
+        <div class="form-reg-log">
             <form action="" method="post">
                 <label for="">
                     Nombre: 
-                    <input type="text" name="name" id="name-reg" placeholder="Nombre" required pattern="\p{L}+(?: +\p{L}+)*" title="Solo se permiten letras y espacios">
+                    <input type="text" name="name" id="name-reg-log" placeholder="Nombre" required pattern="\p{L}+(?: +\p{L}+)*" title="Solo se permiten letras y espacios">
                 </label>
                 <br>
                 <label for="">
                     Email: 
-                    <input type="email" name="email" id="email-reg" placeholder="Email" required>
+                    <input type="email" name="email" id="email-reg-log" placeholder="Email" required>
                 </label>
                 <br>
                 <label for="">
                     Contraseña: 
-                    <input type="password" name="password" id="password-reg" placeholder="Contraseña" required pattern="[A-Za-z0-9]+" title="Solo letras y números">
+                    <input type="password" name="password" id="password-reg-log" placeholder="Contraseña" required pattern="[A-Za-z0-9]+" title="Solo letras y números">
                 </label>
                 <br>
                 <label for="">
                     Dirección: 
-                    <input type="text" name="direction" id="direction-reg" placeholder="Dirección" required maxlength="30">
+                    <input type="text" name="direction" id="direction-reg-log" placeholder="Dirección" required maxlength="30">
                 </label>
                 <br>
                 <label for="">
                     Población: 
-                    <input type="text" name="population" id="population-reg" placeholder="Población" required maxlength="30">
+                    <input type="text" name="population" id="population-reg-log" placeholder="Población" required maxlength="30">
                 </label>
                 <br>
                 <label for="">
                     Código Postal: 
-                    <input type="text" name="cp" id="cp-reg" placeholder="Código Postal" required pattern="[0-9]{5}" maxlength="5" title="Introduce exactamente 5 dígitos">
+                    <input type="text" name="cp" id="cp-reg-log" placeholder="Código Postal" required pattern="[0-9]{5}" maxlength="5" title="Introduce exactamente 5 dígitos">
                 </label>
                 <br>
-                <div class="btn-reg">
-                    <button type="button">Volver</button>
-                    <button type="submit">Registrarse</button>
+                <div class="btn-reg-log">
+                    <a class="a-to-btn" href="/">Volver</a>
+                    <button class="a-to-btn" type="submit">Registrarse</button>
                 </div>
             </form>
         </div>

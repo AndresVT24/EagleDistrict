@@ -180,11 +180,11 @@ header{
 
 /* LOGIN.HTML */
 
-.btn-register-log{
+header .btn-reg-log{
     text-align: right;
 }
 
-.btn-register-log .a-to-btn{
+header .btn-reg-log .a-to-btn{
     margin: 20px 20px auto auto;
 }
 
