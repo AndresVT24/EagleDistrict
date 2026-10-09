@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="./utils/utilts.js"></script>
+    <title>EagleDistrict</title>
+</head>
+<body>
+        <header>
+                <div class="headerTop">
+                        <div class="logo">
+                                <img src="images/logo.png" width="75px">
+                        </div> <!--logo-->
+                        <div class="title">
+                                <img src="./images/logotipo.png" alt="" width="300px">
+                        </div>
+                        <div class="sign">
+                                <a href="register.html"><img src="images/user.png" alt="Usuario" width="50px"></a>
+                        </div>
+                </div>
+                <nav class="navbar">
+                        <div>
+                                <a href="./index.html">Inicio</a>
+                        </div>
+                        <div>
+                                <a href="./sobre-nosotros.html">Sobre Nosotros</a>
+                        </div>
+                        <div class="menuCategorias">
+                                <a href="./productos.html">Nuestros Productos</a>
+                                <div class="submenu">
+                                        <a href="./pistolas.html">Pistolas</a>
+                                        <a href="./fusiles-asalto.html">Fusiles de Asalto</a>
+                                        <a href="./subfusiles.html">Subfusiles</a>
+                                        <a href="./francotiradores.html">Francotiradores</a>
+                                        <a href="./granadas.html">Granadas</a>
+                                        <a href="./visores.html">Visores</a>
+                                        <a href="./mascaras.html">Máscaras</a>
+                                        <a href="./cargadores.html">Cargadores</a>
+                                </div>
+                        </div>
+                        <div>
+                                <a href="./contacto.html">Contacto</a>
+                        </div>
+                </nav>
+        </header>
+    <main class="main-reg">
+        <div class="header-reg">
+            <h1>Contacto</h1>
+        </div>
+        <div class="form-reg">
+            <form action="" method="post">
+                <label for="name-con">
+                    Nombre:<br>
+                    <input type="text" name="name" id="name-con" placeholder="Nombre" required pattern="\p{L}+(?: +\p{L}+)*" title="Solo se permiten letras y espacios">
+                </label>
+                <br>
+                <label for="email-con">
+                    Email:<br>
+                    <input type="email" name="email" id="email-con" placeholder="Email" required>
+                </label>
+                <br>
+                <label for="subject-con">
+                    Asunto:<br>
+                    <input type="text" name="subject" id="subject-con" placeholder="Asunto" required maxlength="60">
+                </label>
+                <br>
+                <label for="message-con">
+                    Mensaje:<br>
+                    <textarea name="message" id="message-con" placeholder="Escribe tu mensaje" rows="6" required maxlength="500"></textarea>
+                </label>
+                <br>
+                <div class="btn-reg">
+                    <button type="reset">Borrar</button>
+                    <button type="submit">Enviar</button>
+                </div>
+            </form>
+        </div>
+    </main>
+        <footer class="footerBottom">
+                <div class="information">
+                        <a href="./sobre-nosotros.html"><p><font color="#b3e3ee">Sobre Nosotros</font></p></a>
+                        <p>Politicas</p>
+                        <p>Cookies</p>
+                        <p>
+                                <a href="#"><img src="images/linkedin.png" alt="LinkedIn" width="30px"></a>
+                                <a href="#"><img src="images/twitter.png" alt="Twitter" width="30px"></a>
+                        </p>
+                </div>
+                <hr>
+                <div class="socialNetworks">
+                </div>
+        </footer>
+</body>
+</html>

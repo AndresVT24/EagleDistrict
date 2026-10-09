@@ -5,10 +5,14 @@ body
     font-family: 'Saira', sans-serif;
     margin: 0;
     background-color: #121212;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
 main{
     margin-bottom: 20px ;
+    flex: 1;
 }
 
 a{
@@ -157,22 +161,44 @@ header{
     background-blend-mode: darken;
 }
 
-/* LOGIN.HTML */
+/* SOBRE-NOSOTROS.HTML */
 
-/* REGISTER.HTML */
+.about-us{
+    color: white !important;
+    padding: 20px;
+    display: flex;
+}
 
+.about-us h3, .about-us p{
+    display: block;
+}
+
+/* CONTACTO.HTML */
 .header-reg h1{
     color: #D8D2C4;
 }
 
-.main-reg{
+/* REGISTER.HTML */
+
+.header-reg h2{
+    color: #D8D2C4;
+}
+
+.access
+{
+    display: flex;
+}
+
+.main-reg, .main-log{
+    margin-top: 150px !important;
     display: flex;
     justify-content: center;
     flex-direction: column;
     background-color: #1E1E1E;
     padding: 20px;
-    margin: 5% 30% 0% 30%;
     border-radius: 5%;
+    margin: 10px;
+    flex-grow: 2;
 }
 
 .header-reg{
@@ -197,9 +223,58 @@ header{
     
 }
 
-/* CATEGORIAS.HTML*/
-
 /* PRODUCTOS.HTML*/
+
+.productos{
+    display: flex;
+    margin-top: 145px;
+    margin-right: 5px;
+    margin-bottom: 5px !important;
+    gap: 20px !important;
+}
+
+.menu-lateral, #listado-productos{
+    flex-grow: 2;
+    padding-right: 70px;
+}
+
+.menu-lateral
+{
+    display:grid;
+    background-color: #1e1e1e;
+    padding: 20px;
+    width: 100px;
+}
+
+.menu-lateral a
+{
+    color: white;
+}
+
+#listado-productos 
+{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+#listado-productos .producto
+{
+    margin-left: 10px;
+    flex: 3;
+    border-radius: 20px;
+}
+
+#listado-productos .producto img
+{
+    border-radius: 20px;
+}
+
+#listado-productos .info
+{
+    padding: 20px;
+    color: white;
+}
 
 /* MEDIA QUERYS */
 
